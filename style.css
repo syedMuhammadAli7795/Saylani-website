@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Merriweather', sans-serif !important;
+    /* font-family: 'Open Sans',  !important; */
+    font-size: 14px !important;
+    line-height: 1.7 !important;
+}
+.bg-theme-colored {
+    background-color: #316DC3 !important;
+}
+.header-top {
+    padding: 5px 0;
+}
+.top-heading {
+    font-size: 14px !important;
+    color: white !important;
+    margin-top: 5px;
+}
+.btn-flat {
+    color: #427900 !important;
+    border-radius: 0 !important;
+    border-color: #006618 !important;
+    font-size: 13px !important; 
+}
+.social-links > a > img{
+    margin: 5px;
+}
+ul > li > .active, a:hover, a:active  {
+    border-radius: 20px;
+    color: white !important;
+    background-color: #316DC3 !important;
+    
+}
+
+
+
+
+
+.ticker-wrap {
+   
+    bottom: 0;
+      left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    background-color:#316dc3;
+    box-sizing: content-box;
+  }
+  .ticker-wrap .ticker {
+    display: inline-block;
+    height: 2rem;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+  }
+
+  .ticker-wrap .ticker__item {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    color: white;
+  }
+  @-webkit-keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  @keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+
+.header-nav {
+    padding: 5px;
+}
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px !important;
+}
+#services {
+    background-color: #316DC3;
+}
+.service-row > .col-md-3 {
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+}
+#whatwedo {
+    background-color: #f7f8fa !important;
+}
+#whatwedo > .container > h2{
+    padding-top: 50px;
+}
+.wwd-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.whatwedo-menu {
+    background-color: white;
+    color: #316DC3;
+    -webkit-box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.75);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.whatwedo-menu > h4 {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+.missions > .col-md-8 > .col-md-6
+{
+    background-color: white;
+    color: #316DC3;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.missions-menu {
+    background-color: white;
+    color: #316DC3;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.missions > .col-md-8 > .row > .col-md-6 > .missions-menu
+{   
+    border:1px solid #eeeeee !important;
+    /* padding: 15px;
+    margin-bottom: 30px;
+    text-align: left !important; */
+    background-color: #f7f8fa !important;
+}
+.missions > .col-md-8 > .row > .col-md-6 > .missions-menu > img
+{
+    float: left;
+    text-align: left !important;
+    margin-right: 20px;
+    background-color: #f7f8fa !important;
+}
+#gallery {
+    padding-top: 50px;
+}
+#gallery > .container > .row > div {
+    background-color: white;
+    color: #316DC3;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#footer {
+    background-color: rgba(37, 39, 46) !important;
+    color: white;
+}
+#footer > .container > .row {
+    margin: 20px;
+}
+#footer > .container > .row > .col-md-4 {
+    padding: 20px;
+}
+.footer-item {
+    background-color: #316DC3;
+}
+.footer-item > p {
+    color: white;
+    padding: 10px;
+}
+
+
